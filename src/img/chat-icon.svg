@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>chat-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="chat-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(3.000000, 3.000000)">
+            <circle id="Oval-2" fill="#6FB7FF" cx="87.5" cy="87.5" r="87.5"></circle>
+            <path d="M105,64 L133.996389,64 C138.416661,64 142,67.5881712 142,72.0070969 L142,103.992903 C142,108.415101 138.417239,112 133.996389,112 L77.0036109,112 C72.5833386,112 69,108.411829 69,103.992903 L69,98 L96.9963891,98 C101.417239,98 105,94.4151006 105,89.9929031 L105,64 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <circle id="Oval-3" fill="#6FB7FF" cx="105" cy="88" r="5"></circle>
+            <circle id="Oval-3" fill="#6FB7FF" cx="124" cy="88" r="5"></circle>
+            <rect id="Rectangle-4" fill="#FFFFFF" x="30" y="48" width="73" height="48" rx="8"></rect>
+            <polygon id="Triangle-2" fill="#FFFFFF" transform="translate(46.581055, 105.717773) scale(1, -1) translate(-46.581055, -105.717773) " points="33.1621094 88 60 123.435547 39.0371094 123.435547"></polygon>
+            <polygon id="Triangle-2" fill="#FFFFFF" transform="translate(119.418945, 123.717773) scale(-1, -1) translate(-119.418945, -123.717773) " points="106 106 132.837891 141.435547 111.875 141.435547"></polygon>
+            <circle id="Oval-3" fill="#6FB7FF" cx="48" cy="72" r="5"></circle>
+            <circle id="Oval-3" fill="#6FB7FF" cx="67" cy="72" r="5"></circle>
+            <circle id="Oval-3" fill="#6FB7FF" cx="86" cy="72" r="5"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,267 @@
+/*
+ * 全体の設定
+ */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --nav-height: 5rem;
+  --bg-color: rgb(254, 254, 254);
+  --top-color: rgb(111, 183, 255);
+  --text-color: rgb(32, 32, 32);
+  --title-color: var(--top-color);
+}
+
+html,
+body {
+  width: 100%;
+}
+
+body {
+  font-family: "Noto Sans Japanese", sans-serif;
+  font-weight: 300;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+strong {
+  color: rgb(255, 129, 121);
+}
+
+p {
+  margin: 1em 0;
+  line-height: 2;
+}
+
+.list {
+  margin-left: 1.5em;
+  font-size: inherit;
+}
+
+/*
+ * 個別要素の設定
+ */
+
+/* body直下のsectionは横方向中央揃えにする */
+body > section {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+body > section:nth-child(even) {
+  background-color: var(--top-color);
+  --title-color: var(--bg-color);
+  --text-color: var(--bg-color);
+}
+
+/* ナビゲーションバー */
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.site-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--top-color);
+  color: white;
+  position: fixed;
+  top: 0;
+  height: var(--nav-height);
+  width: 100vw;
+  z-index: 999;
+  opacity: 0;
+  animation: fadein 1s ease 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.site-navigation-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 80%;
+  height: 50%;
+}
+
+.site-navigation-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  height: 100%;
+  width: 8em;
+  text-decoration: none;
+  font-size: 1em;
+  margin: 0 3%;
+}
+
+@media screen and (max-width: 600px) {
+  .site-navigation-item {
+    font-size: 0.7em;
+  }
+}
+
+.recruit-anchor {
+  background-color: white;
+  color: var(--top-color);
+  border-radius: 3px;
+}
+
+/* 各セクションのコンテンツの設定をする */
+.section-container {
+  display: flex;
+  width: 95%;
+  padding-top: calc(var(--nav-height) + 4em);
+  padding-bottom: 8em;
+}
+
+.section-title-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  font-size: 5vmin;
+}
+
+.section-title {
+  position: -webkit-sticky;
+  position: sticky;
+  top: calc(var(--nav-height) + 2rem);
+  color: var(--title-color);
+  writing-mode: vertical-rl;
+  font-weight: 900;
+}
+
+.section-content-container {
+  padding-top: 1em;
+  flex: 3;
+  color: var(--text-color);
+  font-size: 1.3em;
+}
+
+@media screen and (max-width: 600px){
+  .section-content-container {
+    font-size: 0.9em;
+  }
+}
+
+.dummy-column {
+  flex: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+  .dummy-column {
+    flex: 0.3;
+  }
+}
+
+/* サイトのトップ画面 */
+.site-header {
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--top-color);
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.logo-container {
+  width: 50vmin;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.logo-grancypher {
+  opacity: 0;
+  animation: fadein 1s ease 0.8s;
+  animation-fill-mode: forwards;
+}
+
+.logo-cielspada {
+  opacity: 0;
+  animation: fadein 1s ease 1.2s;
+  animation-fill-mode: forwards;
+}
+
+#wave-canvas {
+  position: absolute;
+  top: 0;
+}
+
+/* 団の特徴 */
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.feature-list-item {
+  width: 33.33%;
+  padding: 0 1em;
+  margin-bottom: 3em;
+}
+
+@media screen and (max-width: 600px) {
+  .feature-list-item {
+    width: 50%;
+  }
+}
+
+.feature-list-item div {
+  text-align: center;
+  width: 100%;
+}
+
+.feature-icon {
+  max-width: 100%;
+}
+
+.guild-info {
+  margin: 3em 0;
+}
+
+/* 入団条件 */
+.requirement-list {
+  font-size: 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .requirement-list {
+    font-size: 1.3em;
+  }
+}
+
+/* 入団する */
+.social-account {
+  display: flex;
+  margin: 1em 0;
+}
+
+.account-icon {
+  border-radius: 3px;
+  color: white;
+  width: 5em;
+  text-align: center;
+  padding: 0.2em 0;
+  margin-right: 1em;
+}
+
+.twitter {
+ background-color: rgb(29, 161, 242);
+}
+
+.gbf {
+  background-color: rgb(99, 117, 242);
+}

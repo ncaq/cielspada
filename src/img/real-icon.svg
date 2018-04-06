@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>real-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="real-icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(3.000000, 3.000000)">
+            <circle id="Oval-2" fill="#6FB7FF" cx="87.5" cy="87.5" r="87.5"></circle>
+            <circle id="Oval-4" fill="#FFFFFF" cx="87.5" cy="50.5" r="28.5"></circle>
+            <path d="M55,153.601562 L120,153.601562 L120,111 C119.729004,93.281303 105.282291,79 87.5,79 C69.7177094,79 55.2709957,93.281303 55.0037681,111 L55,153.601562 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <polygon id="Rectangle-5" fill="#6FB7FF" transform="translate(87.263456, 103.263456) rotate(-135.000000) translate(-87.263456, -103.263456) " points="75.763456 91.763456 88.2339461 95.8740924 98.763456 112.146839 96.1235398 114.763456 79.9106943 104.123887"></polygon>
+            <polygon id="Rectangle-5" fill="#6FB7FF" transform="translate(87.276397, 83.183056) rotate(-315.000000) translate(-87.276397, -83.183056) " points="88.294588 78.6881213 91.7530301 85.0613726 89.1131139 87.6779899 82.7997633 84.1094884"></polygon>
+        </g>
+    </g>
+</svg>
